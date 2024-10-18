@@ -31,5 +31,5 @@ public sealed class Job
 
     // Required company for the job.
     // Required reference navigation to principal
-    public Company Company { get; set; } = null!;
+    public Company? Company { get; set; } = null!;
 }
