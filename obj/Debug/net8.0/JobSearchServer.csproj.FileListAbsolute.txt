@@ -153,3 +153,4 @@
 /home/michael/Projects/JobSearchServer/bin/Debug/net8.0/HotChocolate.Data.dll
 /home/michael/Projects/JobSearchServer/bin/Debug/net8.0/MySqlConnector.dll
 /home/michael/Projects/JobSearchServer/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/michael/Projects/JobSearchServer/obj/Debug/net8.0/JobSearchServer.sourcelink.json

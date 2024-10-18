@@ -44,3 +44,4 @@ public static class CompanyMutations
         return true;
     }
 }
+
