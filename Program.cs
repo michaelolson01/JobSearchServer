@@ -2,7 +2,7 @@ using JobSearchServer.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = "server=localhost;port=3306;database=JobsDatabase;user=root;password=G0l14rd$25";
+var connectionString = "server=localhost;port=3306;database=JobsDatabase;user=michael;password=P0rt1a";
 
 builder.Services
     .AddDbContext<ApplicationDbContext>(
@@ -32,7 +32,6 @@ builder
                 .AllowAnyMethod();
         });
     });
-
 
 var app = builder.Build();
 

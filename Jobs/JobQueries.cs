@@ -12,6 +12,7 @@ public static class JobQueries
         ApplicationDbContext dbContext,
         CancellationToken cancellationToken)
     {
+        Console.WriteLine("Reading jobs");
         // Get the jobs, and wait for the query to finish.
         var jobs = await dbContext.Jobs.ToListAsync(cancellationToken);
         // Add the company to each of the jobs (if it is findable)
